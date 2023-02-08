@@ -1,0 +1,14 @@
+Package: montyhall
+Title: Play the Monty Hall Game
+Version: 0.0.0.9000
+Authors@R: 
+    person("Valerie", "Keim", , "valerie.keim@asu.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0003-2154-9767"))
+Description: Using the montyhall package, you can play the Monty Hall game!R will generate three doors with either a goat or a car behind each door. There will be two doors with a goat behind each one and the third door will contain a car. The player will select one of the three doors. Then, the host will reveal one of the doors that has a goat, but it will not be the door that the player selected. Then, the player can decide to stick with their initial pick or switch their selected door. Once the final pick is established, then R will reveal whether the player picked a goat or a car! A car means the player won. A goat means that did not win.
+Depends:
+	dplyr
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
